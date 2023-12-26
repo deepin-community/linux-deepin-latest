@@ -1,6 +1,6 @@
 Source: linux-deepin-latest
 Section: metapackages
-Priority: extra
+Priority: standard
 Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
 Build-Depends: debhelper (>=8.0.0)
 Standards-Version: 3.9.3
