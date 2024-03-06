@@ -1,3 +1,9 @@
+linux-deepin-latest (6.0.0) unstable; urgency=medium
+
+  * add arm64 loong64 kernel packages.
+
+ -- LiChengGang <lichenggang@uniontech.com>  Wed, 06 Mar 2024 11:36:52 +0800
+
 linux-deepin-latest (5.15.77-0deepin) unstable; urgency=medium
 
   * update v23 kernel 5.15.77
