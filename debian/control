@@ -1,6 +1,6 @@
 Source: linux-deepin-latest
 Section: metapackages
-Priority: extra
+Priority: standard
 Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
 Build-Depends: debhelper (>=8.0.0)
 Standards-Version: 3.9.3
@@ -8,7 +8,7 @@ Homepage: http://www.deepin.com
 
 Package: linux-image-deepin-amd64
 Architecture: amd64
-Depends: linux-image-ABINAME-amd64-desktop
+Depends: linux-image-AMD64ABINAME-amd64-desktop
 Description: Linux for 64-bit PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with AMD64, Intel 64 or VIA Nano processors.
@@ -18,8 +18,41 @@ Description: Linux for 64-bit PCs (meta-package)
 
 Package: linux-headers-deepin-amd64
 Architecture: amd64
-Depends: linux-headers-ABINAME-amd64-desktop
+Depends: linux-headers-AMD64ABINAME-amd64-desktop
 Description: Header files for Linux amd64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel amd64 configuration.
 
+Package: linux-image-deepin-arm64
+Architecture: arm64
+Depends: linux-image-ARM64ABINAME-arm64-desktop
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+ .
+ This kernel also runs on a Xen hypervisor.  It supports both privileged
+ (dom0) and unprivileged (domU) operation.
+
+Package: linux-headers-deepin-arm64
+Architecture: arm64
+Depends: linux-headers-ARM64ABINAME-arm64-desktop
+Description: Header files for Linux arm64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel amd64 configuration.
+
+Package: linux-image-deepin-loong64
+Architecture: loong64
+Depends: linux-image-LOONG64ABINAME-loong64-desktop
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+ .
+ This kernel also runs on a Xen hypervisor.  It supports both privileged
+ (dom0) and unprivileged (domU) operation.
+
+Package: linux-headers-deepin-loong64
+Architecture: loong64
+Depends: linux-headers-LOONG64ABINAME-loong64-desktop
+Description: Header files for Linux loong64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel amd64 configuration.
