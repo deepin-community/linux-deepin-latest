@@ -1,3 +1,9 @@
+linux-deepin-latest (6.0.2) unstable; urgency=medium
+
+  * update loongarch64 kernel 6.9.0-rc3 release.
+
+ -- LiChengGang <lichenggang@uniontech.com>  Fri, 15 Mar 2024 15:59:42 +0800
+
 linux-deepin-latest (6.0.0) unstable; urgency=medium
 
   * add arm64 loong64 kernel packages.
