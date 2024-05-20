@@ -1,3 +1,9 @@
+linux-deepin-latest (6.0.4) unstable; urgency=medium
+
+  * update loongarch64 kernel to 6.9.1 release.
+
+ -- Mingcong Bai <baimingcong@uniontech.com>  Mon, 20 May 2024 15:11:52 +0800
+
 linux-deepin-latest (6.0.3) unstable; urgency=medium
 
   * update loongarch64 kernel 6.9.0 release.
