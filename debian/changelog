@@ -1,3 +1,14 @@
+linux-deepin-latest (6.0.7) UNRELEASED; urgency=medium
+
+  * Update loong64 kernel to 6.10.0-rc1.
+  * Use defconfig derived from the linux-6.6.y maintenance branch.
+  * Enable NTSYNC for better gaming performance via LATX/Wine.
+  * Disable NTFS kernel driver as a targetted test for boot delays.
+  * Enable Loongson STMMAC and YT8601 modules.
+  * Enable virtualization (KVM) features.
+
+ -- Mingcong Bai <baimingcong@uniontech.com>  Fri, 31 May 2024 10:32:49 +0800
+
 linux-deepin-latest (6.0.6) unstable; urgency=medium
 
   * update loongarch64 kernel to 6.9.2 release.
