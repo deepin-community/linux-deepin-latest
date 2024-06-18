@@ -1,3 +1,9 @@
+linux-deepin-latest (6.0.8) unstable; urgency=medium
+
+  * update loong64-desktop kernel to 6.9.5.
+
+ -- Mingcong Bai <baimingcong@uniontech.com>  Tue, 18 Jun 2024 16:14:59 +0800
+
 linux-deepin-latest (6.0.7) unstable; urgency=medium
 
   * update loong64-desktop kernel to 6.9.3.
