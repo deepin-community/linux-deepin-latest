@@ -1,3 +1,10 @@
+linux-deepin-latest (23.01.01.01) unstable; urgency=medium
+
+  * Update amd64, loong64 kernels to 6.9.6.
+  * Use UOS-style version scheme.
+
+ -- Mingcong Bai <baimingcong@uniontech.com>  Tue, 09 Jul 2024 17:07:17 +0800
+
 linux-deepin-latest (6.0.8) unstable; urgency=medium
 
   * update loong64-desktop kernel to 6.9.5.
