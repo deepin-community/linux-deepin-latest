@@ -1,6 +1,6 @@
 Source: linux-deepin-latest
 Section: metapackages
-Priority: standard
+Priority: extra
 Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
 Build-Depends: debhelper (>=8.0.0)
 Standards-Version: 3.9.3
@@ -8,51 +8,63 @@ Homepage: http://www.deepin.com
 
 Package: linux-image-deepin-amd64
 Architecture: amd64
-Depends: linux-image-AMD64ABINAME-amd64-desktop
-Description: Linux for 64-bit PCs (meta-package)
- This package depends on the latest Linux kernel and modules for use on PCs
- with AMD64, Intel 64 or VIA Nano processors.
- .
- This kernel also runs on a Xen hypervisor.  It supports both privileged
- (dom0) and unprivileged (domU) operation.
+Depends: linux-image-6.12-amd64-desktop-rolling
+Description: Linux for x86-64 devices (meta-package)
+ This package depends on the latest Linux kernel and modules for use on
+ x86-64 devices.
+
+Package: linux-image-deepin-amd64-dbg
+Architecture: amd64
+Depends: linux-image-6.12-amd64-desktop-rolling-dbg
+Description: Linux for x86-64 devices (meta-package for debug symbols)
+ This package depends on the latest Linux kernel and modules for use on
+ x86-64 devices.
 
 Package: linux-headers-deepin-amd64
 Architecture: amd64
-Depends: linux-headers-AMD64ABINAME-amd64-desktop
+Depends: linux-headers-6.12-amd64-desktop-rolling
 Description: Header files for Linux amd64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel amd64 configuration.
 
 Package: linux-image-deepin-arm64
 Architecture: arm64
-Depends: linux-image-ARM64ABINAME-arm64-desktop
-Description: Linux for 64-bit PCs (meta-package)
- This package depends on the latest Linux kernel and modules for use on PCs
- with AMD64, Intel 64 or VIA Nano processors.
- .
- This kernel also runs on a Xen hypervisor.  It supports both privileged
- (dom0) and unprivileged (domU) operation.
+Depends: linux-image-ARM64ABINAME-arm64-desktop-rolling
+Description: Linux for AArch64devices (meta-package)
+ This package depends on the latest Linux kernel and modules for use on
+ AArch64 devices.
+
+Package: linux-image-deepin-arm64-dbg
+Architecture: arm64
+Depends: linux-image-ARM64ABINAME-arm64-desktop-rolling-dbg
+Description: Linux for AArch64 devices (meta-package for debug symbols)
+ This package depends on the latest Linux kernel and modules for use on
+ AArch64 devices.
 
 Package: linux-headers-deepin-arm64
 Architecture: arm64
-Depends: linux-headers-ARM64ABINAME-arm64-desktop
+Depends: linux-headers-ARM64ABINAME-arm64-desktop-rolling
 Description: Header files for Linux arm64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
- latest Linux kernel amd64 configuration.
+ latest Linux kernel arm64 configuration.
 
 Package: linux-image-deepin-loong64
 Architecture: loong64
-Depends: linux-image-LOONG64ABINAME-loong64-desktop
-Description: Linux for 64-bit PCs (meta-package)
- This package depends on the latest Linux kernel and modules for use on PCs
- with AMD64, Intel 64 or VIA Nano processors.
- .
- This kernel also runs on a Xen hypervisor.  It supports both privileged
- (dom0) and unprivileged (domU) operation.
+Depends: linux-image-LOONG64ABINAME-loong64-desktop-rolling
+Description: Linux for LoongArch devices (meta-package)
+ This package depends on the latest Linux kernel and modules for use on
+ LoongArch devices.
+
+Package: linux-image-deepin-loong64-dbg
+Architecture: loong64
+Depends: linux-image-LOONG64ABINAME-loong64-desktop-rolling-dbg
+Description: Linux for LoongArch devices (meta-package for debug symbols)
+ This package depends on the latest Linux kernel and modules for use on
+ LoongArch devices.
 
 Package: linux-headers-deepin-loong64
 Architecture: loong64
-Depends: linux-headers-LOONG64ABINAME-loong64-desktop
+Depends: linux-headers-LOONG64ABINAME-loong64-desktop-rolling
 Description: Header files for Linux loong64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
- latest Linux kernel amd64 configuration.
+ latest Linux kernel loong64 configuration.
