@@ -1,3 +1,9 @@
+linux-deepin-latest (23.01.01.38) unstable; urgency=medium
+
+  * update all kernel to 6.12.66
+
+ -- lichenggang <lichenggang@deepin.org>  Thu, 22 Jan 2026 14:10:28 +0800
+
 linux-deepin-latest (23.01.01.37) unstable; urgency=medium
 
   * update all kernel to 6.12.65
