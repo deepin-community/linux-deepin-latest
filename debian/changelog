@@ -1,3 +1,10 @@
+linux-deepin-latest (23.01.01.47) unstable; urgency=medium
+
+  * update all kernel to 6.18.38
+
+ -- lichenggang <lichenggang@uniontech.com>  Thu, 16 Jul 2026 10:00:00 +0800
+
+
 linux-deepin-latest (23.01.01.46) unstable; urgency=medium
 
   * update all kernel to 6.18.36
